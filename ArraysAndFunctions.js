@@ -20,3 +20,9 @@ console.log(customerNames[i]); //using i in replacement of arrary position 0 or 
 
 // we can use a loop here to iterate over customer names and print each name out so instead of having two lines to print each one out ===> using the customerNames array function
 // creating a new for loop on line 16
+
+
+// using the "for..of" loop instead of the "for" loop to shorten the function and get rid of the "i"
+for (name of customerNames){
+    console.log(name);
+} //test this and the names should be printed on your console.log 2x
