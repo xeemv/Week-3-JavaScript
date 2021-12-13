@@ -44,3 +44,30 @@ function createFullName(firstName, lastName) { //our parameters go right here in
 } // if you run this right now. refresh and nothing is printed out because we have not called this function yet
 // we have to use the function if we want to call the function
 createFullName("Tom", "Swayer") //the arguement is ==> "Tom" = 1st and "Sawyer" = 2nd
+//
+
+// dont write codes like this (line 50 below)
+// function createName("Tom", "Sawyer") { //what you don't want to do is you don't want to try writing code like this for one it's not going to work because it's incorrect syntax
+    //applying this function to Tom Sawyer will not work
+    // console.log(firstName + " " + lastName); 
+// }
+// createFullName("Tom", "Swayer")
+
+// another things students will do wrong is:
+function createFullName(firstName, lastName) { //set this up correctly
+    console.log(firstName + " " + lastName);  
+    //console.log("Tom" + " " + "Sawyer") by doing this instead which is put the values here which is wrong
+    //because they put the values here, not no matter what we pass, it's going to print out Tom Sawyer
+}
+createFullName("Tom", "Swayer")
+//
+
+// learning about return statement
+myFunction();
+    function createFullName(firstName, lastName) {
+    //console.log(firstName + " " + lastName); ===> get rid of this line and use line 69
+    return firstName + " " + lastName; //no longer need the parentheses
+}
+createFullName("Tom", "Swayer"); // add a semicolon to the end of this line
+// test this out
+// the name will not be printed in your console.log
