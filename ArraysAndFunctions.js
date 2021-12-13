@@ -26,3 +26,14 @@ console.log(customerNames[i]); //using i in replacement of arrary position 0 or 
 for (name of customerNames){
     console.log(name);
 } //test this and the names should be printed on your console.log 2x
+// 
+
+// function section
+function myFunction(){ //any code inside these braces will be executed any time we use this function
+    for(let i = 0; i < 100; i++) {
+        console.log(i);
+    }
+}
+
+// to invoke the function follow steps below
+myFunction(); // this will cause console to print 0 - 99
