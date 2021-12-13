@@ -37,3 +37,10 @@ function myFunction(){ //any code inside these braces will be executed any time 
 
 // to invoke the function follow steps below
 myFunction(); // this will cause console to print 0 - 99
+
+// a function that has two parameters
+function createFullName(firstName, lastName) { //our parameters go right here in the parentheses ==> firstName = 1st parameter and lastName = 2nd parameter
+    console.log(firstName + " " + lastName);
+} // if you run this right now. refresh and nothing is printed out because we have not called this function yet
+// we have to use the function if we want to call the function
+createFullName("Tom", "Swayer") //the arguement is ==> "Tom" = 1st and "Sawyer" = 2nd
