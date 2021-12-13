@@ -71,3 +71,10 @@ myFunction();
 createFullName("Tom", "Swayer"); // add a semicolon to the end of this line
 // test this out
 // the name will not be printed in your console.log
+console.log(createFullName("Tom", "Swayer")); //this way does allow you to print out the name
+// test this by printing and it should say "Tom Sawyer"
+
+// or make it a variable for later
+var fullName = createFullName("Tom", "Swayer"); //or store this value as a variable to use later
+console.log("Welcome, " + fullName);
+// print this and it should say, "Welcome, Tom Sawyer"
