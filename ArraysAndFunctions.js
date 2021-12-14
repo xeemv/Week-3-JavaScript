@@ -105,8 +105,13 @@ var dvdPlayer = {
     // the dvdname is what is the name of the currently loaded DVD 
     //make sure to put Mulan in quotes
     printDVDName: function() {
-        console.log(dvdName);
+        // console.log(dvdName); ==> it will not print and will show up as "not define" because it is not a variable that lives outside the object 
+        console.log(this.dvdName); 
+        //since DVD name is not a variable that lives outside the object (reference line 85, it is not a variable) we're calling it as a property inside the object so we say this.dvdName so this object's property dvd name
+        // test it out and it should now say "Mulan"
     }
 };
-
 // there we go so there's our object it has properties that define it and then it has a method that provides some functionality
+console.log(dvdPlayer.depth); //test this out ==> should equal 12
+//use our DVD object and access the properties and methods on it using
+dvdPlayer.printDVDName(); //test this one out ==> it will display as not define due to line 108
