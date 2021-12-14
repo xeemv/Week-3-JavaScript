@@ -78,3 +78,6 @@ console.log(createFullName("Tom", "Swayer")); //this way does allow you to print
 var fullName = createFullName("Tom", "Swayer"); //or store this value as a variable to use later
 console.log("Welcome, " + fullName);
 // print this and it should say, "Welcome, Tom Sawyer"
+
+// learning array objects
+// object literals:
