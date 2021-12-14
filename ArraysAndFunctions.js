@@ -115,3 +115,18 @@ var dvdPlayer = {
 console.log(dvdPlayer.depth); //test this out ==> should equal 12
 //use our DVD object and access the properties and methods on it using
 dvdPlayer.printDVDName(); //test this one out ==> it will display as not define due to line 108
+//
+
+// var x = 5
+// function loopUntilX(){
+//     for(let i = 0; i < x; i++);
+//     loopUntilX(x);
+// //do not change below, used for testing purposes
+// console.log(loopUntilX(x));
+// } console.log('true');
+
+// function myFunction(){ //any code inside these braces will be executed any time we use this function
+//     for(let i = 0; i < 100; i++) {
+//         console.log(i);
+//     }
+// } myFunction();
