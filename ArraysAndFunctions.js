@@ -80,4 +80,33 @@ console.log("Welcome, " + fullName);
 // print this and it should say, "Welcome, Tom Sawyer"
 
 // learning array objects
-// object literals:
+// object literals literal representation of our DVD player 
+
+var dvdPlayer = {
+    //inside these curly braces we're going to put key value pairs
+    // going to be the names of the properties or methods on the DVD player on the object 
+    // the values assigned to each key will be either the values of the property or the function that makes up the method so
+    height: 3, // this is a key
+    // they're going to have values that say what the values of these properties are it's all going to be separated by commas
+    // 3 inches
+    width: 18, // this is a key
+      // they're going to have values that say what the values of these properties are it's all going to be separated by commas
+      // 18 inches
+    depth: 12, // this is a key
+      // they're going to have values that say what the values of these properties are it's all going to be separated by commas
+      // 12 inches
+    weight: 7, // this is a key
+      // they're going to have values that say what the values of these properties are it's all going to be separated by commas
+      //7 pounds
+    color: 'black', // this is a key     
+      // they're going to have values that say what the values of these properties are it's all going to be separated by commas
+      // make sure to put black in quotes  
+    dvdName: "Mulan", //the last property does not need a comma
+    // the dvdname is what is the name of the currently loaded DVD 
+    //make sure to put Mulan in quotes
+    printDVDName: function() {
+        console.log(dvdName);
+    }
+};
+
+// there we go so there's our object it has properties that define it and then it has a method that provides some functionality
