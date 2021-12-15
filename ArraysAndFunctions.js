@@ -130,3 +130,16 @@ dvdPlayer.printDVDName(); //test this one out ==> it will display as not define 
 //         console.log(i);
 //     }
 // } myFunction();
+
+
+// function question #5
+var a = 1
+var b = 2
+function returnSum(num1, num2, num3){
+    return num1 + num2 + num3;
+}
+
+
+//do not change below, used for testing purposes
+console.log(returnSum(a,b));
+//
